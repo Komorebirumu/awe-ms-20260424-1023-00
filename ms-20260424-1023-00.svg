@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" aria-label="AI-Driven Generative Historical Map Creator">
+
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f7fa; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b2ebf2; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#backgroundGradient)" />
+
+  <!-- Main Illustration Group -->
+  <g transform="translate(100, 100)">
+
+    <!-- AI Brain Icon -->
+    <g transform="translate(150, 100) scale(0.8)">
+      <circle cx="50" cy="50" r="50" fill="#42a5f5" /> <!-- Brain shape -->
+      <path d="M 25 35 Q 50 15 75 35 L 75 65 Q 50 85 25 65 Z" fill="#2196f3" /> <!-- Left hemisphere -->
+      <path d="M 25 35 L 75 35 L 75 65 L 25 65 Z" fill="#1976d2" /> <!-- Right hemisphere -->
+      <circle cx="35" cy="40" r="8" fill="#ffffff" />
+      <circle cx="65" cy="40" r="8" fill="#ffffff" />
+      <circle cx="35" cy="60" r="8" fill="#ffffff" />
+      <circle cx="65" cy="60" r="8" fill="#ffffff" />
+    </g>
+
+    <!-- Generative Process Arrows -->
+    <g transform="translate(150, 200) rotate(-90)">
+      <path d="M 0 0 L 20 10 L 0 20 Z" fill="#64b5f6" />
+      <path d="M 30 0 L 50 10 L 30 20 Z" fill="#64b5f6" />
+      <path d="M 60 0 L 80 10 L 60 20 Z" fill="#64b5f6" />
+    </g>
+
+    <!-- Map Icon -->
+    <g transform="translate(450, 100) scale(0.8)">
+      <rect x="10" y="10" width="80" height="80" rx="5" fill="#ffcc80" /> <!-- Map outline -->
+      <path d="M 20 20 L 90 20 L 90 90 L 20 90 Z" fill="#ffe0b2" /> <!-- Map interior -->
+      <path d="M 30 30 L 40 40 L 30 50 Z" fill="#f57c00" /> <!-- Landmark 1 -->
+      <circle cx="70" cy="70" r="10" fill="#f57c00" /> <!-- Landmark 2 -->
+      <line x1="50" y1="40" x2="60" y2="60" stroke="#f57c00" stroke-width="4" /> <!-- Connection -->
+      <line x1="25" y1="75" x2="35" y2="65" stroke="#f57c00" stroke-width="4" /> <!-- Connection -->
+    </g>
+
+    <!-- Text Label: AI -->
+    <text x="180" y="350" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#0277bd">AI</text>
+
+    <!-- Text Label: Generative -->
+    <text x="300" y="350" font-family="Arial, sans-serif" font-size="36" fill="#00acc1">Generative</text>
+
+    <!-- Text Label: Map Creator -->
+    <text x="480" y="350" font-family="Arial, sans-serif" font-size="36" fill="#00acc1">Map Creator</text>
+
+    <!-- Connecting Lines -->
+    <line x1="250" y1="300" x2="300" y2="330" stroke="#90caf9" stroke-width="5" stroke-dasharray="10 5" />
+    <line x1="380" y1="300" x2="430" y2="330" stroke="#90caf9" stroke-width="5" stroke-dasharray="10 5" />
+
+  </g>
+
+  <!-- Subtle Overlay Elements -->
+  <g opacity="0.2">
+    <!-- Abstract Geometric Shapes -->
+    <polygon points="50,550 100,500 150,550" fill="#81d4fa" />
+    <rect x="600" y="500" width="50" height="50" fill="#4dd0e1" />
+    <circle cx="700" cy="450" r="25" fill="#26c6da" />
+  </g>
+
+</svg>
